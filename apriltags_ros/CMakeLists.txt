@@ -17,7 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
-find_package(Eigen REQUIRED)
+find_package(Eigen3 REQUIRED)
 
 add_message_files(
   FILES
@@ -35,7 +35,7 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES apriltag_detector
   CATKIN_DEPENDS apriltags image_transport roscpp sensor_msgs geometry_msgs tf cv_bridge message_runtime nodelet std_msgs
-  DEPENDS Eigen
+  DEPENDS Eigen3
 )
 
 ###########
