@@ -5,7 +5,7 @@
 #include <vector>
 #include <iostream>
 
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Dense>
 
 #include "AprilTags/Edge.h"
 #include "AprilTags/FloatImage.h"
